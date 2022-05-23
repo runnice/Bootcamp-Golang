@@ -41,7 +41,7 @@ máximo ou média) e que retorna outra função (e uma mensagem caso o cálculo 
 definido) que pode ser passado uma quantidade N de inteiros e retorne o cálculo que foi
 indicado na função anterior
 Exemplo:
-
+```go
 const (
 minimum = "minimum"
 average = "average"
@@ -57,6 +57,7 @@ maxFunc, err := operation(maximum)
 minValue := minhaFunc(2, 3, 3, 4, 10, 2, 4, 5)
 averageValue := averageFunc(2, 3, 3, 4, 1, 2, 4, 5)
 maxValue := maxFunc(2, 3, 3, 4, 1, 2, 4, 5)
+```
 
 
 
@@ -76,7 +77,7 @@ exista o animal)
 2. Uma função para cada animal que calcule a quantidade de alimento com base na
 quantidade necessária do animal digitado.
 Exemplo:
-
+```go
 const (
 dog = "dog"
 cat = "cat"
@@ -90,6 +91,7 @@ animalCat, msg := Animal(cat)
 var amount float64
 amount+= animaldog(5)
 amount+= animalCat(8)
+```
 
 # Tarde
 
