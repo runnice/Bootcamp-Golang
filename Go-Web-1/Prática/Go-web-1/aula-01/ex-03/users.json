@@ -1,0 +1,23 @@
+{
+    "users":[
+    {
+    "id":1,
+    "name":"João",
+    "lastname": "Guedes",
+    "email": "joao@gemail.com",
+    "age": 20,
+    "height": 1.75,
+    "isActive": true,
+    "birthDate": "01/01/2000"
+    }, 
+    {
+    "id":2,
+    "name":"Joana",
+    "lastname": "Guedes",
+    "email": "joana@gemail.com",
+    "age": 30,
+    "height": 1.85,
+    "isActive": true,
+    "birthDate": "01/01/1990"
+    }]
+}
